@@ -28,4 +28,12 @@ Na área do atendente é possivel criar as senhas e entrão chamá-las quando ac
 Na área do cliente, é possível observar essas senhas em tempo real.
 
 ---
+## Quem realizou
 
+O trabalho foi realizado pelos alunos da Uninassau - Graças :
+
+- Güiniwer Mendes buñol (01783298)
+- Jhonata Soares Alves da Silva (01796007)
+- Willian Gabriel Andrade da Silva (01801637)
+
+---
