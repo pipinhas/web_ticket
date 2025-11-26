@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Telão Cliente</title>
+
+  <!-- css -->
+
+  <link rel="stylesheet" href="cliente.css" />
+
+  <!-- bootstrap -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+
+  <!-- javascript -->
+
+  <script src="/script.js" defer></script>
+</head>
+
+<!-- Quando for adicionar o javascript, muita coisa vai ser apagada.
+  Praticamente todos os textos, e vai precisar adicionar os ids.
+  Os textos que eu coloquei é só pra ver como vai ficar
+  quando implementar o javascript. Tem que ter aqui também -->
+
+<body>
+  <!-- Aqui é navbar para transitar entre área do cliente e
+    área do atendente -->
+
+  <!-- Cor aleatória e o formato ta feio, tem que mudar. Meramente ilustrativo. -->
+
+  <!-- Alterar os telões para que fiquem mais ao centro da página,
+    já que só haverá eles, e não terão os botões em baixo.
+    Se der pra aumentar, vai ficar o bixo. -->
+  <header>
+    <ul class="nav justify-content-end p-4 fs-4">
+      <li class="nav-item">
+        <a class="nav-link active" href="/Área cliente/cliente.html">ÁREA DO CLIENTE</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="/Área atendente/atendente.html">ÁREA DO ATENDENTE</a>
+      </li>
+    </ul>
+  </header>
+
+
+  <!-- Aqui são os telões, tudo dentro da classe área -->
+
+  <div class="area">
+    <div class="telao">
+      <h2 class="subtitulo_senha">Senha da vez</h2>
+      <div>
+        <h1 class="senha_vez"></h1>
+      </div>
+    </div>
+    <div class="telao_senha_chamada">
+      <h2 class="senha_chamada">Senhas chamadas</h2>
+
+      <!--lista criada somente pra visualização. quando for implementar js
+        vai ficar somente o ul, sem as li. -->
+
+      <ul class="lista_senha">
+
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>

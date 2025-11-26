@@ -1,0 +1,135 @@
+/* Reset + fonte */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #e8f3f5;
+  color: #1c1c1c;
+}
+
+/* HEADER */
+header {
+  background: #116f82 !important;
+  padding: 2px 30px;
+}
+
+header .nav-link {
+  color: rgb(216, 227, 228) !important;
+  font-weight: 600;
+  font-size: 19px;
+  transition: 0.2s;
+}
+
+header .nav-link:hover {
+  opacity: 0.7;
+}
+
+/* ÁREA PRINCIPAL */
+.area {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+/* telões */
+.telao,
+.telao_senha_chamada {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.15);
+  min-width: 300px;
+}
+
+/* tela principal maior */
+.telao {
+  width: 55%;
+}
+
+.telao_senha_chamada {
+  width: 30%;
+}
+
+/* títulos */
+.subtitulo_senha,
+.senha_chamada {
+  background: #c69b22;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+/* senha da vez */
+.senha_vez {
+  background: #148298;
+  color: white;
+  border-radius: 12px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 58px;
+  font-weight: 700;
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* lista de senhas */
+.lista_senha {
+  background: #148298;
+  color: white;
+  padding: 15px;
+  border-radius: 12px;
+  list-style: none;
+  height: 380px;
+  overflow-y: auto;
+  font-size: 30px;
+}
+
+.lista_senha li {
+  margin-bottom: 12px;
+}
+
+/* Responsividade */
+@media (max-width: 900px) {
+  .senha_vez {
+    font-size: 40px;
+    height: 260px;
+  }
+
+  .lista_senha {
+    font-size: 24px;
+  }
+
+  .subtitulo_senha,
+  .senha_chamada {
+    font-size: 22px;
+  }
+
+  .telao {
+    width: 100%;
+  }
+
+  .telao_senha_chamada {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .area {
+    padding: 20px;
+  }
+
+  header .nav {
+    justify-content: center;
+  }
+}
